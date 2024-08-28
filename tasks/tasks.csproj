@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <RootNamespace>Huawei.Hmf.Tasks</RootNamespace>
+	  <AssemblyName>Huawei.Hmf.Tasks</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Jars\tasks-1.5.2.206.jar" />
+  </ItemGroup>
+</Project>

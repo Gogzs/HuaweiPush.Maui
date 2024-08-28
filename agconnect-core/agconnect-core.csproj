@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <RootNamespace>agconnect_core</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Jars\agconnect-core-1.7.3.302.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\tasks\tasks.csproj" />
+  </ItemGroup>
+</Project>

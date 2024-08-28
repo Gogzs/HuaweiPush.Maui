@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <RootNamespace>networks_grs</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Jars\network-grs-6.0.2.300.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\network-common\network-common.csproj" />
+    <ProjectReference Include="..\security-ssl\security-ssl.csproj" />
+  </ItemGroup>
+</Project>

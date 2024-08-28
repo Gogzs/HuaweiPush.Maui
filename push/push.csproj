@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Jars\push-6.11.0.300.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\base\base.csproj" />
+    <ProjectReference Include="..\opendevice\opendevice.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Jars\hatool-6.9.0.300.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\security-encrypt\security-encrypt.csproj" />
+    <ProjectReference Include="..\security-ssl\security-ssl.csproj" />
+  </ItemGroup>
+</Project>

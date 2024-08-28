@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Jars\stats-6.9.0.300.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\hatool\hatool.csproj" />
+    <ProjectReference Include="..\log\log.csproj" />
+    <ProjectReference Include="..\networks-grs\networks-grs.csproj" />
+    <ProjectReference Include="..\security-base\security-base.csproj" />
+  </ItemGroup>
+</Project>
