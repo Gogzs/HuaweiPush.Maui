@@ -5,6 +5,7 @@
     <RootNamespace>network_common</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Jars\network-common-6.0.2.300.aar" />

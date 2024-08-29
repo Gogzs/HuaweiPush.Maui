@@ -5,6 +5,7 @@
     <RootNamespace>security_ssl</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Jars\security-ssl-1.2.0.307.aar" />

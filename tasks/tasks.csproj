@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
 	  <RootNamespace>Huawei.Hmf.Tasks</RootNamespace>
 	  <AssemblyName>Huawei.Hmf.Tasks</AssemblyName>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Jars\tasks-1.5.2.206.jar" />

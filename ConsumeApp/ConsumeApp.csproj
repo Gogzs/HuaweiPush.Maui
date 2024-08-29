@@ -14,13 +14,29 @@
 		<ApplicationTitle>ConsumeApp</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.consumeapp</ApplicationId>
+		<ApplicationId>slo.ecslovenia.ema.test</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
 
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+
+		<AndroidSigningKeyStore>huawei-binom-test.keystore</AndroidSigningKeyStore>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
+	  <AndroidKeyStore>False</AndroidKeyStore>
+	  <AndroidSigningStorePass>testpassword</AndroidSigningStorePass>
+	  <AndroidSigningKeyAlias>binom-test</AndroidSigningKeyAlias>
+	  <AndroidSigningKeyPass>testpassword</AndroidSigningKeyPass>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
+	  <AndroidKeyStore>False</AndroidKeyStore>
+	  <AndroidSigningStorePass>testpassword</AndroidSigningStorePass>
+	  <AndroidSigningKeyAlias>binom-test</AndroidSigningKeyAlias>
+	  <AndroidSigningKeyPass>testpassword</AndroidSigningKeyPass>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -42,13 +58,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	  <None Remove="agconnect-services.json" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\push\push.csproj" />
+	  <AndroidAsset Include="agconnect-services.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="network-framework-compat" Version="1.0.0" />
+		<PackageReference Include="push" Version="1.0.0" />
 	</ItemGroup>
 
 </Project>

@@ -5,6 +5,7 @@
     <RootNamespace>agconnect_core</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Jars\agconnect-core-1.7.3.302.aar" />

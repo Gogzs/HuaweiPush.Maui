@@ -1,4 +1,5 @@
 ﻿using Android.App;
+using Android.Content;
 using Android.Content.PM;
 using Android.Nfc;
 using Android.OS;
@@ -20,8 +21,9 @@ namespace ConsumeApp
                 {
                     try
                     {
+                        string appid = AGConnectServicesConfig.FromContext(this.ApplicationContext).GetString("client/app_id");
                         var smece = HmsInstanceId.GetInstance(this.ApplicationContext);
-                        var uhh = smece?.GetToken("hehehe");
+                        var uhh = smece?.GetToken(appid, "HCM");
                     }
                     catch (Exception e)
                     {
@@ -30,6 +32,14 @@ namespace ConsumeApp
                 });
 
                 thread.Start();
+        }
+
+        protected override void AttachBaseContext(Context? context)
+        {
+            base.AttachBaseContext(context);
+
+            AGConnectServicesConfig config = AGConnectServicesConfig.FromContext(context);
+            config.OverlayWith(new HmsLazyInputStream(context));
         }
     }
 }

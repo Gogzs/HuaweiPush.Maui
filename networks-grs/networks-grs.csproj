@@ -5,6 +5,7 @@
     <RootNamespace>networks_grs</RootNamespace>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Jars\network-grs-6.0.2.300.aar" />

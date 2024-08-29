@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
 	  <RootNamespace>Huawei.Hms.Base</RootNamespace>
 	  <AssemblyName>Huawei.Hms.Base</AssemblyName>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Jars\base-6.9.0.300.aar" />

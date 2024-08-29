@@ -4,8 +4,9 @@
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\log-6.9.0.300.aar" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Remove="Jars\log-6.9.0.300.aar" />
+	</ItemGroup>
 </Project>

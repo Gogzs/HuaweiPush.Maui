@@ -9,35 +9,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumeApp", "ConsumeApp\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ui", "ui\ui.csproj", "{C530B230-3D85-49A0-A7AC-BA3CE6C23C51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "network-common", "network-common\network-common.csproj", "{CCC5F918-2F3A-40BB-B26E-218D04921AEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "network-common", "network-common\network-common.csproj", "{CCC5F918-2F3A-40BB-B26E-218D04921AEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "security-ssl", "security-ssl\security-ssl.csproj", "{32F7616F-E112-4C78-8601-B3ED2FB9917E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "security-ssl", "security-ssl\security-ssl.csproj", "{32F7616F-E112-4C78-8601-B3ED2FB9917E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "networks-grs", "networks-grs\networks-grs.csproj", "{8EF6F6B4-165C-4F7F-BD64-A66B4911B5C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "networks-grs", "networks-grs\networks-grs.csproj", "{8EF6F6B4-165C-4F7F-BD64-A66B4911B5C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "security-encrypt", "security-encrypt\security-encrypt.csproj", "{4A97D685-F0E9-49E9-AF0D-43B29FB79160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "security-encrypt", "security-encrypt\security-encrypt.csproj", "{4A97D685-F0E9-49E9-AF0D-43B29FB79160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hatool", "hatool\hatool.csproj", "{CD36A274-9045-4AFE-B28D-46E577C9F9FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hatool", "hatool\hatool.csproj", "{CD36A274-9045-4AFE-B28D-46E577C9F9FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "security-base", "security-base\security-base.csproj", "{5A0593E8-CA66-4209-8B02-9298459CE747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "security-base", "security-base\security-base.csproj", "{5A0593E8-CA66-4209-8B02-9298459CE747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stats", "stats\stats.csproj", "{48DF96FE-EB6E-4A77-8213-7065275C5CD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "stats", "stats\stats.csproj", "{48DF96FE-EB6E-4A77-8213-7065275C5CD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tasks", "tasks\tasks.csproj", "{E641E422-362B-4444-8614-CD2C01FACC37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tasks", "tasks\tasks.csproj", "{E641E422-362B-4444-8614-CD2C01FACC37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agconnect-core", "agconnect-core\agconnect-core.csproj", "{11EBF607-6EFE-49AC-961D-FDF154C82D66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "agconnect-core", "agconnect-core\agconnect-core.csproj", "{11EBF607-6EFE-49AC-961D-FDF154C82D66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "device", "device\device.csproj", "{A1784C54-1730-4BBD-B2B5-100525FCF369}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "device", "device\device.csproj", "{A1784C54-1730-4BBD-B2B5-100525FCF369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baselegacyapi", "baselegacyapi\baselegacyapi.csproj", "{65DE83F0-BAA3-443F-B2CC-F8AD234B1066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "baselegacyapi", "baselegacyapi\baselegacyapi.csproj", "{65DE83F0-BAA3-443F-B2CC-F8AD234B1066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "availableupdate", "availableupdate\availableupdate.csproj", "{2E04ABF1-DF21-45F8-A027-D1DA9ED9C6DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "availableupdate", "availableupdate\availableupdate.csproj", "{2E04ABF1-DF21-45F8-A027-D1DA9ED9C6DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "base", "base\base.csproj", "{E835FC13-597F-4C04-B376-873455483E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "base", "base\base.csproj", "{E835FC13-597F-4C04-B376-873455483E2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "opendevice", "opendevice\opendevice.csproj", "{048349F9-917E-492E-A98F-0D7EB6E09EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "opendevice", "opendevice\opendevice.csproj", "{048349F9-917E-492E-A98F-0D7EB6E09EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "push", "push\push.csproj", "{FBE508AA-A1B1-44C1-9CB8-EF533809AEF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "push", "push\push.csproj", "{FBE508AA-A1B1-44C1-9CB8-EF533809AEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "network-framework-compat", "network-framework-compat\network-framework-compat.csproj", "{7243357B-2177-4623-903B-30925EEBA0E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{FBE508AA-A1B1-44C1-9CB8-EF533809AEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBE508AA-A1B1-44C1-9CB8-EF533809AEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBE508AA-A1B1-44C1-9CB8-EF533809AEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7243357B-2177-4623-903B-30925EEBA0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7243357B-2177-4623-903B-30925EEBA0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7243357B-2177-4623-903B-30925EEBA0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7243357B-2177-4623-903B-30925EEBA0E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
