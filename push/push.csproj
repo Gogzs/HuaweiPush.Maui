@@ -11,6 +11,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\base\base.csproj" />
+    <ProjectReference Include="..\network-framework-compat\network-framework-compat.csproj" />
     <ProjectReference Include="..\opendevice\opendevice.csproj" />
   </ItemGroup>
 </Project>

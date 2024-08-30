@@ -6,9 +6,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <RootNamespace>Huawei.Hms.NetworkFrameworkCompat</RootNamespace>
+	  <AssemblyName>Huawei.Hms.NetworkFrameworkCompat</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Jars\network-framework-compat-4.0.20.301.aar" />
+    <None Remove="Transforms\Metadata.Namespaces.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\network-common\network-common.csproj" />

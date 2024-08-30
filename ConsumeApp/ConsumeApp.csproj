@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net8.0-android</TargetFrameworks>
+		<TargetFrameworks>net8.0-android34.0</TargetFrameworks>
 
 		<OutputType>Exe</OutputType>
 		<RootNamespace>ConsumeApp</RootNamespace>
@@ -22,20 +22,34 @@
 
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
 
-		<AndroidSigningKeyStore>huawei-binom-test.keystore</AndroidSigningKeyStore>
+		<AndroidSigningKeyStore>binom-huawei-test.jks</AndroidSigningKeyStore>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
-	  <AndroidKeyStore>False</AndroidKeyStore>
+	  <AndroidKeyStore>True</AndroidKeyStore>
 	  <AndroidSigningStorePass>testpassword</AndroidSigningStorePass>
-	  <AndroidSigningKeyAlias>binom-test</AndroidSigningKeyAlias>
+	  <AndroidSigningKeyAlias>binom-huawei-key</AndroidSigningKeyAlias>
 	  <AndroidSigningKeyPass>testpassword</AndroidSigningKeyPass>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
-	  <AndroidKeyStore>False</AndroidKeyStore>
+	  <AndroidKeyStore>True</AndroidKeyStore>
 	  <AndroidSigningStorePass>testpassword</AndroidSigningStorePass>
-	  <AndroidSigningKeyAlias>binom-test</AndroidSigningKeyAlias>
+	  <AndroidSigningKeyAlias>binom-huawei-key</AndroidSigningKeyAlias>
+	  <AndroidSigningKeyPass>testpassword</AndroidSigningKeyPass>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android34.0|AnyCPU'">
+	  <AndroidKeyStore>True</AndroidKeyStore>
+	  <AndroidSigningStorePass>testpassword</AndroidSigningStorePass>
+	  <AndroidSigningKeyAlias>binom-huawei-key</AndroidSigningKeyAlias>
+	  <AndroidSigningKeyPass>testpassword</AndroidSigningKeyPass>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android34.0|AnyCPU'">
+	  <AndroidKeyStore>True</AndroidKeyStore>
+	  <AndroidSigningStorePass>testpassword</AndroidSigningStorePass>
+	  <AndroidSigningKeyAlias>binom-huawei-key</AndroidSigningKeyAlias>
 	  <AndroidSigningKeyPass>testpassword</AndroidSigningKeyPass>
 	</PropertyGroup>
 
@@ -66,10 +80,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Huawei.Hms.NetworkFrameworkCompat" Version="1.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
-		<PackageReference Include="network-framework-compat" Version="1.0.0" />
 		<PackageReference Include="push" Version="1.0.0" />
 	</ItemGroup>
 

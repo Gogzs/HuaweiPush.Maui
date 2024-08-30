@@ -7,6 +7,7 @@ using Android.Util;
 using Huawei.Agconnect.Config;
 using Huawei.Hms.Aaid;
 using Huawei.Hms.Common;
+using Huawei.Hms.Push;
 
 namespace ConsumeApp
 {
@@ -24,6 +25,10 @@ namespace ConsumeApp
                         string appid = AGConnectServicesConfig.FromContext(this.ApplicationContext).GetString("client/app_id");
                         var smece = HmsInstanceId.GetInstance(this.ApplicationContext);
                         var uhh = smece?.GetToken(appid, "HCM");
+                        ShareMe.SetSmece(uhh);
+                        HmsMessaging.GetInstance(this.ApplicationContext).TurnOnPush();
+
+                        HmsMessaging.GetInstance(this.ApplicationContext).AutoInitEnabled = true;
                     }
                     catch (Exception e)
                     {
