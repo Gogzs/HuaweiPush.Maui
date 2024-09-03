@@ -23,8 +23,11 @@
 		<AssemblyFileVersion>1.5.2.206</AssemblyFileVersion>
 		<Version>1.5.2.206</Version>
 		<PackageVersion>1.5.2.206</PackageVersion>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Remove="Jars\tasks-1.5.2.206.jar" />
+		<None Include="..\ReadMe.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 </Project>

@@ -23,9 +23,12 @@
 		<AssemblyFileVersion>6.9.0.300</AssemblyFileVersion>
 		<Version>6.9.0.300</Version>
 		<PackageVersion>6.9.0.300</PackageVersion>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Remove="Jars\hatool-6.9.0.300.aar" />
+		<None Include="..\ReadMe.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\security-encrypt\security-encrypt.csproj" />

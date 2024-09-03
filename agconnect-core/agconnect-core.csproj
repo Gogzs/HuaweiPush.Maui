@@ -23,9 +23,12 @@
 		<AssemblyFileVersion>1.7.3.302</AssemblyFileVersion>
 		<Version>1.7.3.302</Version>
 		<PackageVersion>1.7.3.302</PackageVersion>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Remove="Jars\agconnect-core-1.7.3.302.aar" />
+		<None Include="..\ReadMe.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\tasks\tasks.csproj" />

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net8.0-android</TargetFramework>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
@@ -23,9 +23,12 @@
 		<AssemblyFileVersion>6.9.0.300</AssemblyFileVersion>
 		<Version>6.9.0.300</Version>
 		<PackageVersion>6.9.0.300</PackageVersion>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Remove="Jars\stats-6.9.0.300.aar" />
+		<None Include="..\ReadMe.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\hatool\hatool.csproj" />

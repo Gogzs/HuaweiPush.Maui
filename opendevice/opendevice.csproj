@@ -23,9 +23,12 @@
 		<AssemblyFileVersion>6.11.0.300</AssemblyFileVersion>
 		<Version>6.11.0.300</Version>
 		<PackageVersion>6.11.0.300</PackageVersion>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Remove="Jars\opendevice-6.11.0.300.aar" />
+		<None Include="..\ReadMe.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\base\base.csproj" />

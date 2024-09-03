@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFramework>net8.0-android</TargetFramework>
 		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
@@ -23,9 +23,12 @@
 		<AssemblyFileVersion>4.0.20.301</AssemblyFileVersion>
 		<Version>4.0.20.301</Version>
 		<PackageVersion>4.0.20.301</PackageVersion>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Remove="Jars\network-framework-compat-4.0.20.301.aar" />
+		<None Include="..\ReadMe.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\network-common\network-common.csproj" />
