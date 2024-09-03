@@ -5,8 +5,6 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "log", "log\log.csproj", "{0EFFBD02-F777-41EE-8EC2-1560FFD301B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumeApp", "ConsumeApp\ConsumeApp.csproj", "{8F74D59B-F33C-4D5F-8284-CDD54A66F33C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ui", "ui\ui.csproj", "{C530B230-3D85-49A0-A7AC-BA3CE6C23C51}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "network-common", "network-common\network-common.csproj", "{CCC5F918-2F3A-40BB-B26E-218D04921AEB}"
@@ -51,12 +49,6 @@ Global
 		{0EFFBD02-F777-41EE-8EC2-1560FFD301B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EFFBD02-F777-41EE-8EC2-1560FFD301B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EFFBD02-F777-41EE-8EC2-1560FFD301B8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8F74D59B-F33C-4D5F-8284-CDD54A66F33C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F74D59B-F33C-4D5F-8284-CDD54A66F33C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F74D59B-F33C-4D5F-8284-CDD54A66F33C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{8F74D59B-F33C-4D5F-8284-CDD54A66F33C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F74D59B-F33C-4D5F-8284-CDD54A66F33C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8F74D59B-F33C-4D5F-8284-CDD54A66F33C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{C530B230-3D85-49A0-A7AC-BA3CE6C23C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C530B230-3D85-49A0-A7AC-BA3CE6C23C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C530B230-3D85-49A0-A7AC-BA3CE6C23C51}.Release|Any CPU.ActiveCfg = Release|Any CPU

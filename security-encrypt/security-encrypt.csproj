@@ -1,13 +1,30 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <RootNamespace>security_encrypt</RootNamespace>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\security-encrypt-1.2.0.307.aar" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RootNamespace>Huawei.Android.Hms.SecurityEncrypt</RootNamespace>
+		<AssemblyName>Huawei.MAUI.Android.Hms.SecurityEncrypt</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Huawei.MAUI.Android.Hms.SecurityEncrypt</PackageId>
+		<Summary>.NET MAUI bindings for HMS Core - SecurityEncrypt</Summary>
+		<Description>.NET MAUI bindings for HMS Core - SecurityEncrypt</Description>
+		<Authors>Spejs Kaubojs - Gogzs</Authors>
+		<Owners>Spejs Kaubojs - Gogzs</Owners>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Product>Huawei.MAUI.Android.Hms.SecurityEncrypt</Product>
+		<PackageProjectUrl>https://github.com/Gogzs/HuaweiPush.Maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gogzs/HuaweiPush.Maui</RepositoryUrl>
+		<Title>Huawei.MAUI.Android.Hms.SecurityEncrypt</Title>
+		<AssemblyVersion>1.2.0.307</AssemblyVersion>
+		<AssemblyFileVersion>1.2.0.307</AssemblyFileVersion>
+		<Version>1.2.0.307</Version>
+		<PackageVersion>1.2.0.307</PackageVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\security-encrypt-1.2.0.307.aar" />
+	</ItemGroup>
 </Project>

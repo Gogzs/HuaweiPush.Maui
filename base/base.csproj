@@ -1,23 +1,39 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-	  <RootNamespace>Huawei.Hms.Base</RootNamespace>
-	  <AssemblyName>Huawei.Hms.Base</AssemblyName>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\base-6.9.0.300.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\availableupdate\availableupdate.csproj" />
-    <ProjectReference Include="..\baselegacyapi\baselegacyapi.csproj" />
-    <ProjectReference Include="..\device\device.csproj" />
-    <ProjectReference Include="..\log\log.csproj" />
-    <ProjectReference Include="..\stats\stats.csproj" />
-    <ProjectReference Include="..\tasks\tasks.csproj" />
-    <ProjectReference Include="..\ui\ui.csproj" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>Huawei.Hms.Base</RootNamespace>
+		<AssemblyName>Huawei.MAUI.Hms.Base</AssemblyName>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Huawei.MAUI.Hms.Base</PackageId>
+		<Summary>.NET MAUI bindings for HMS Core - Base</Summary>
+		<Description>.NET MAUI bindings for HMS Core - Base</Description>
+		<Authors>Spejs Kaubojs - Gogzs</Authors>
+		<Owners>Spejs Kaubojs - Gogzs</Owners>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Product>Huawei.MAUI.Hms.Base</Product>
+		<PackageProjectUrl>https://github.com/Gogzs/HuaweiPush.Maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gogzs/HuaweiPush.Maui</RepositoryUrl>
+		<Title>Huawei.MAUI.Hms.Base</Title>
+		<AssemblyVersion>6.9.0.300</AssemblyVersion>
+		<AssemblyFileVersion>6.9.0.300</AssemblyFileVersion>
+		<Version>6.9.0.300</Version>
+		<PackageVersion>6.9.0.300</PackageVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\base-6.9.0.300.aar" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\availableupdate\availableupdate.csproj" />
+		<ProjectReference Include="..\baselegacyapi\baselegacyapi.csproj" />
+		<ProjectReference Include="..\device\device.csproj" />
+		<ProjectReference Include="..\log\log.csproj" />
+		<ProjectReference Include="..\stats\stats.csproj" />
+		<ProjectReference Include="..\tasks\tasks.csproj" />
+		<ProjectReference Include="..\ui\ui.csproj" />
+	</ItemGroup>
 </Project>

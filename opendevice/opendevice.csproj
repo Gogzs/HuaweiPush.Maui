@@ -1,19 +1,35 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-	  <RootNamespace>Huawei.Hms.Opendevice</RootNamespace>
-	  <AssemblyName>Huawei.Hms.Opendevice</AssemblyName>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\opendevice-6.11.0.300.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\base\base.csproj" />
-    <ProjectReference Include="..\security-base\security-base.csproj" />
-    <ProjectReference Include="..\security-encrypt\security-encrypt.csproj" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>Huawei.Hms.Opendevice</RootNamespace>
+		<AssemblyName>Huawei.MAUI.Hms.Opendevice</AssemblyName>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Huawei.MAUI.Hms.Opendevice</PackageId>
+		<Summary>.NET MAUI bindings for HMS Core - Opendevice</Summary>
+		<Description>.NET MAUI bindings for HMS Core - Opendevice</Description>
+		<Authors>Spejs Kaubojs - Gogzs</Authors>
+		<Owners>Spejs Kaubojs - Gogzs</Owners>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Product>Huawei.MAUI.Hms.Opendevice</Product>
+		<PackageProjectUrl>https://github.com/Gogzs/HuaweiPush.Maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gogzs/HuaweiPush.Maui</RepositoryUrl>
+		<Title>Huawei.MAUI.Hms.Opendevice</Title>
+		<AssemblyVersion>6.11.0.300</AssemblyVersion>
+		<AssemblyFileVersion>6.11.0.300</AssemblyFileVersion>
+		<Version>6.11.0.300</Version>
+		<PackageVersion>6.11.0.300</PackageVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\opendevice-6.11.0.300.aar" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\base\base.csproj" />
+		<ProjectReference Include="..\security-base\security-base.csproj" />
+		<ProjectReference Include="..\security-encrypt\security-encrypt.csproj" />
+	</ItemGroup>
 </Project>

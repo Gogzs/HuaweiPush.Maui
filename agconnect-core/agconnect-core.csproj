@@ -1,16 +1,33 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <RootNamespace>agconnect_core</RootNamespace>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\agconnect-core-1.7.3.302.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\tasks\tasks.csproj" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RootNamespace>Huawei.Agconnect.AgconnectCore</RootNamespace>
+		<AssemblyName>Huawei.MAUI.Agconnect.AgconnectCore</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Huawei.MAUI.Agconnect.AgconnectCore</PackageId>
+		<Summary>.NET MAUI bindings for HMS Core - AgconnectCore</Summary>
+		<Description>.NET MAUI bindings for HMS Core - AgconnectCore</Description>
+		<Authors>Spejs Kaubojs - Gogzs</Authors>
+		<Owners>Spejs Kaubojs - Gogzs</Owners>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Product>Huawei.MAUI.Agconnect.AgconnectCore</Product>
+		<PackageProjectUrl>https://github.com/Gogzs/HuaweiPush.Maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gogzs/HuaweiPush.Maui</RepositoryUrl>
+		<Title>Huawei.MAUI.Agconnect.AgconnectCore</Title>
+		<AssemblyVersion>1.7.3.302</AssemblyVersion>
+		<AssemblyFileVersion>1.7.3.302</AssemblyFileVersion>
+		<Version>1.7.3.302</Version>
+		<PackageVersion>1.7.3.302</PackageVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\agconnect-core-1.7.3.302.aar" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\tasks\tasks.csproj" />
+	</ItemGroup>
 </Project>

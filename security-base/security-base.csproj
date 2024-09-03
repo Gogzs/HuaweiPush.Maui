@@ -1,13 +1,30 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <RootNamespace>security_base</RootNamespace>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\security-base-1.2.0.307.aar" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RootNamespace>Huawei.Android.Hms.SecurityBase</RootNamespace>
+		<AssemblyName>Huawei.MAUI.Android.Hms.SecurityBase</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Huawei.MAUI.Android.Hms.SecurityBase</PackageId>
+		<Summary>.NET MAUI bindings for HMS Core - SecurityBase</Summary>
+		<Description>.NET MAUI bindings for HMS Core - SecurityBase</Description>
+		<Authors>Spejs Kaubojs - Gogzs</Authors>
+		<Owners>Spejs Kaubojs - Gogzs</Owners>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Product>Huawei.MAUI.Android.Hms.SecurityBase</Product>
+		<PackageProjectUrl>https://github.com/Gogzs/HuaweiPush.Maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gogzs/HuaweiPush.Maui</RepositoryUrl>
+		<Title>Huawei.MAUI.Android.Hms.SecurityBase</Title>
+		<AssemblyVersion>1.2.0.307</AssemblyVersion>
+		<AssemblyFileVersion>1.2.0.307</AssemblyFileVersion>
+		<Version>1.2.0.307</Version>
+		<PackageVersion>1.2.0.307</PackageVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\security-base-1.2.0.307.aar" />
+	</ItemGroup>
 </Project>

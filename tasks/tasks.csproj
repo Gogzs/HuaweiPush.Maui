@@ -1,14 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-	  <RootNamespace>Huawei.Hmf.Tasks</RootNamespace>
-	  <AssemblyName>Huawei.Hmf.Tasks</AssemblyName>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\tasks-1.5.2.206.jar" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>Huawei.Hmf.Tasks</RootNamespace>
+		<AssemblyName>Huawei.MAUI.Hmf.Tasks</AssemblyName>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Huawei.MAUI.Hmf.Tasks</PackageId>
+		<Summary>.NET MAUI bindings for HMS Core - Tasks</Summary>
+		<Description>.NET MAUI bindings for HMS Core - Tasks</Description>
+		<Authors>Spejs Kaubojs - Gogzs</Authors>
+		<Owners>Spejs Kaubojs - Gogzs</Owners>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Product>Huawei.MAUI.Hmf.Tasks</Product>
+		<PackageProjectUrl>https://github.com/Gogzs/HuaweiPush.Maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gogzs/HuaweiPush.Maui</RepositoryUrl>
+		<Title>Huawei.MAUI.Hmf.Tasks</Title>
+		<AssemblyVersion>1.5.2.206</AssemblyVersion>
+		<AssemblyFileVersion>1.5.2.206</AssemblyFileVersion>
+		<Version>1.5.2.206</Version>
+		<PackageVersion>1.5.2.206</PackageVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\tasks-1.5.2.206.jar" />
+	</ItemGroup>
 </Project>

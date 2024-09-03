@@ -1,15 +1,33 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\ui-6.9.0.300.aar" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\log\log.csproj" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RootNamespace>Huawei.Hms.Ui</RootNamespace>
+		<AssemblyName>Huawei.MAUI.Hms.Ui</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Huawei.MAUI.Hms.Ui</PackageId>
+		<Summary>.NET MAUI bindings for HMS Core - Ui</Summary>
+		<Description>.NET MAUI bindings for HMS Core - Ui</Description>
+		<Authors>Spejs Kaubojs - Gogzs</Authors>
+		<Owners>Spejs Kaubojs - Gogzs</Owners>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Product>Huawei.MAUI.Hms.Ui</Product>
+		<PackageProjectUrl>https://github.com/Gogzs/HuaweiPush.Maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gogzs/HuaweiPush.Maui</RepositoryUrl>
+		<Title>Huawei.MAUI.Hms.Ui</Title>
+		<AssemblyVersion>6.9.0.300</AssemblyVersion>
+		<AssemblyFileVersion>6.9.0.300</AssemblyFileVersion>
+		<Version>6.9.0.300</Version>
+		<PackageVersion>6.9.0.300</PackageVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\ui-6.9.0.300.aar" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\log\log.csproj" />
+	</ItemGroup>
 </Project>

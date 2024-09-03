@@ -1,20 +1,34 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <RootNamespace>network_framework_compat</RootNamespace>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	  <RootNamespace>Huawei.Hms.NetworkFrameworkCompat</RootNamespace>
-	  <AssemblyName>Huawei.Hms.NetworkFrameworkCompat</AssemblyName>
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\network-framework-compat-4.0.20.301.aar" />
-    <None Remove="Transforms\Metadata.Namespaces.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\network-common\network-common.csproj" />
-    <ProjectReference Include="..\security-base\security-base.csproj" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RootNamespace>Huawei.Hms.NetworkFrameworkCompat</RootNamespace>
+		<AssemblyName>Huawei.MAUI.Hms.NetworkFrameworkCompat</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Huawei.MAUI.Hms.NetworkFrameworkCompat</PackageId>
+		<Summary>.NET MAUI bindings for HMS Core - NetworkFrameworkCompat</Summary>
+		<Description>.NET MAUI bindings for HMS Core - NetworkFrameworkCompat</Description>
+		<Authors>Spejs Kaubojs - Gogzs</Authors>
+		<Owners>Spejs Kaubojs - Gogzs</Owners>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Product>Huawei.MAUI.Hms.NetworkFrameworkCompat</Product>
+		<PackageProjectUrl>https://github.com/Gogzs/HuaweiPush.Maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gogzs/HuaweiPush.Maui</RepositoryUrl>
+		<Title>Huawei.MAUI.Hms.NetworkFrameworkCompat</Title>
+		<AssemblyVersion>4.0.20.301</AssemblyVersion>
+		<AssemblyFileVersion>4.0.20.301</AssemblyFileVersion>
+		<Version>4.0.20.301</Version>
+		<PackageVersion>4.0.20.301</PackageVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\network-framework-compat-4.0.20.301.aar" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\network-common\network-common.csproj" />
+		<ProjectReference Include="..\security-base\security-base.csproj" />
+	</ItemGroup>
 </Project>

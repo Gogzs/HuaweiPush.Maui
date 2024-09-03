@@ -1,11 +1,29 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RootNamespace>Huawei.Hms.Log</RootNamespace>
+		<AssemblyName>Huawei.MAUI.Hms.Log</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Huawei.MAUI.Hms.Log</PackageId>
+		<Summary>.NET MAUI bindings for HMS Core - Log</Summary>
+		<Description>.NET MAUI bindings for HMS Core - Log</Description>
+		<Authors>Spejs Kaubojs - Gogzs</Authors>
+		<Owners>Spejs Kaubojs - Gogzs</Owners>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Product>Huawei.MAUI.Hms.Log</Product>
+		<PackageProjectUrl>https://github.com/Gogzs/HuaweiPush.Maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gogzs/HuaweiPush.Maui</RepositoryUrl>
+		<Title>Huawei.MAUI.Hms.Log</Title>
+		<AssemblyVersion>6.9.0.300</AssemblyVersion>
+		<AssemblyFileVersion>6.9.0.300</AssemblyFileVersion>
+		<Version>6.9.0.300</Version>
+		<PackageVersion>6.9.0.300</PackageVersion>
+	</PropertyGroup>
 	<ItemGroup>
 		<None Remove="Jars\log-6.9.0.300.aar" />
 	</ItemGroup>

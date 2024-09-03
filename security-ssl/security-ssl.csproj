@@ -1,13 +1,30 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net8.0-android</TargetFramework>
-    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <RootNamespace>security_ssl</RootNamespace>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Jars\security-ssl-1.2.0.307.aar" />
-  </ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0-android</TargetFramework>
+		<SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<RootNamespace>Huawei.Android.Hms.SecuritySsl</RootNamespace>
+		<AssemblyName>Huawei.MAUI.Android.Hms.SecuritySsl</AssemblyName>
+	</PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Huawei.MAUI.Android.Hms.SecuritySsl</PackageId>
+		<Summary>.NET MAUI bindings for HMS Core - SecuritySsl</Summary>
+		<Description>.NET MAUI bindings for HMS Core - SecuritySsl</Description>
+		<Authors>Spejs Kaubojs - Gogzs</Authors>
+		<Owners>Spejs Kaubojs - Gogzs</Owners>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Product>Huawei.MAUI.Android.Hms.SecuritySsl</Product>
+		<PackageProjectUrl>https://github.com/Gogzs/HuaweiPush.Maui</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Gogzs/HuaweiPush.Maui</RepositoryUrl>
+		<Title>Huawei.MAUI.Android.Hms.SecuritySsl</Title>
+		<AssemblyVersion>1.2.0.307</AssemblyVersion>
+		<AssemblyFileVersion>1.2.0.307</AssemblyFileVersion>
+		<Version>1.2.0.307</Version>
+		<PackageVersion>1.2.0.307</PackageVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Remove="Jars\security-ssl-1.2.0.307.aar" />
+	</ItemGroup>
 </Project>
